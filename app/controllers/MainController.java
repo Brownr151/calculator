@@ -1,12 +1,12 @@
 package controllers;
 
-
 import play.mvc.*;
-int MAXFORCALCULATOR = 99999;
-int MINFORCALCULATOR = 1;
-double pretaxincome =
 
-public class CalculatorController extends Controller{
+public class MainController extends Controller{
+
+    int MAXFORCALCULATOR = 99999;
+    int MINFORCALCULATOR = 1;
+    double pretaxincome = 80000;
 
     public Result calculator(double pretaxincome,
                              int taxyear,
@@ -17,8 +17,9 @@ public class CalculatorController extends Controller{
                              double untaxedinterest,
                              double paidgiftaid,
                              boolean blind){
-        if (country  )
-        double finalamount = ((pretaxincome + otherincome) *.2);
-        return ok(views.html.resultspage.render(finalamount));
+        //if (country  )
+        //double finalamount = ((pretaxincome + otherincome) *.2);
+        //return ok(views.html.resultspage.render(finalamount));
+        return ok("DUMMY RETURN");
     }
 }

@@ -54,32 +54,32 @@ Seq[Any](format.raw/*2.1*/("""
           </legend>
           <div class="govuk-radios">
             <div class="govuk-radios__item">
-              <input class="govuk-radios__input" id="taxyearone" name="taxyearone" type="radio" value="2015/2016">
-              <label class="govuk-label govuk-radios__label" for="taxyearone">
+              <input class="govuk-radios__input" id="taxyear" name="taxyear" type="radio" value="2015/2016">
+              <label class="govuk-label govuk-radios__label" for="taxyear">
                 2015/2016
               </label>
             </div>
             <div class="govuk-radios__item">
-              <input class="govuk-radios__input" id="taxyeartwo" name="taxyeartwo" type="radio" value="2016/2017">
-              <label class="govuk-label govuk-radios__label" for="taxyeartwo">
+              <input class="govuk-radios__input" id="taxyear" name="taxyear" type="radio" value="2016/2017">
+              <label class="govuk-label govuk-radios__label" for="taxyear">
                 2016/2017
               </label>
             </div>
             <div class="govuk-radios__item">
-              <input class="govuk-radios__input" id="taxyearthree" name="taxyearthree" type="radio" value="2017/2018">
-              <label class="govuk-label govuk-radios__label" for="taxyearthree">
+              <input class="govuk-radios__input" id="taxyear" name="taxyear" type="radio" value="2017/2018">
+              <label class="govuk-label govuk-radios__label" for="taxyear">
                 2017/2018
               </label>
             </div>
             <div class="govuk-radios__item">
-              <input class="govuk-radios__input" id="taxyearfour" name="taxyearfour" type="radio" value="2018/2019">
-              <label class="govuk-label govuk-radios__label" for="taxyearfour">
+              <input class="govuk-radios__input" id="taxyear" name="taxyear" type="radio" value="2018/2019">
+              <label class="govuk-label govuk-radios__label" for="taxyear">
                 2018/2019
               </label>
             </div>
             <div class="govuk-radios__item">
-              <input class="govuk-radios__input" id="taxyearfive" name="taxyearfive" type="radio" value="2019/2020">
-              <label class="govuk-label govuk-radios__label" for="taxyearfive">
+              <input class="govuk-radios__input" id="taxyear" name="taxyear" type="radio" value="2019/2020">
+              <label class="govuk-label govuk-radios__label" for="taxyear">
                 2019/2020
               </label>
             </div>
@@ -121,7 +121,14 @@ Seq[Any](format.raw/*2.1*/("""
         <label class="govuk-label" for="pretaxincome">
           Total earnings before tax taken off <span class="govuk-visually-hidden">line 1 of 2</span>
         </label>
-        <input class="govuk-input" id="pretaxincome" name="pretaxincome" type="number">
+        <input class="govuk-input" id="pretaxincome" name="pretaxincome" type="number" value="80000">
+      </div>
+
+      <div class="govuk-form-group">
+        <label class="govuk-label" for="pretaxincome">
+          Other income <span class="govuk-visually-hidden">line 1 of 2</span>
+        </label>
+        <input class="govuk-input" id="otherincome" name="otherincome" type="number" value="0">
       </div>
 
       <div class="govuk-form-group">
@@ -197,9 +204,9 @@ Seq[Any](format.raw/*2.1*/("""
     </fieldset>
   </form>
 </section>
-""")))}),format.raw/*169.2*/("""
-""")))}),format.raw/*170.2*/("""
-"""),format.raw/*171.1*/("""</body>"""))
+""")))}),format.raw/*176.2*/("""
+""")))}),format.raw/*177.2*/("""
+"""),format.raw/*178.1*/("""</body>"""))
       }
     }
   }
@@ -215,11 +222,11 @@ Seq[Any](format.raw/*2.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: 2019-11-27T23:49:59.402857
-                  SOURCE: /home/rob/Documents/play-samples-play-java-hello-world-tutorial/app/views/index.scala.html
-                  HASH: db8376738b9c9ce3c31cda93335439681a7a0e7e
-                  MATRIX: 941->1|1037->4|1065->7|1095->29|1134->31|1161->33|1208->72|1258->85|1285->86|8227->6997|8260->6999|8289->7000
-                  LINES: 28->1|33->2|35->4|35->4|35->4|36->5|36->5|36->5|37->6|200->169|201->170|202->171
+                  DATE: 2019-12-02T07:03:01.936
+                  SOURCE: /home/siamak/Documents/calculator/app/views/index.scala.html
+                  HASH: ce564a4ec6fd613314c02ad78374692ad5e33ae3
+                  MATRIX: 941->1|1037->4|1065->7|1095->29|1134->31|1161->33|1208->72|1258->85|1285->86|8481->7251|8514->7253|8543->7254
+                  LINES: 28->1|33->2|35->4|35->4|35->4|36->5|36->5|36->5|37->6|207->176|208->177|209->178
                   -- GENERATED --
               */
           

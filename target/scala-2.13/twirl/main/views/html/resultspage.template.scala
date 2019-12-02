@@ -22,10 +22,10 @@ import play.mvc.Http.Context.Implicit._
 import play.data._
 import play.core.j.PlayFormsMagicForJava._
 
-object resultspage extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,_root_.play.twirl.api.Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with _root_.play.twirl.api.Template1[Double,play.twirl.api.HtmlFormat.Appendable] {
+object resultspage extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,_root_.play.twirl.api.Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with _root_.play.twirl.api.Template1[String,play.twirl.api.HtmlFormat.Appendable] {
 
   /**/
-  def apply/*1.2*/(finalamount: Double):play.twirl.api.HtmlFormat.Appendable = {
+  def apply/*1.2*/(finalamount: String):play.twirl.api.HtmlFormat.Appendable = {
     _display_ {
       {
 
@@ -44,9 +44,9 @@ Seq[Any](format.raw/*2.1*/("""
     }
   }
 
-  def render(finalamount:Double): play.twirl.api.HtmlFormat.Appendable = apply(finalamount)
+  def render(finalamount:String): play.twirl.api.HtmlFormat.Appendable = apply(finalamount)
 
-  def f:((Double) => play.twirl.api.HtmlFormat.Appendable) = (finalamount) => apply(finalamount)
+  def f:((String) => play.twirl.api.HtmlFormat.Appendable) = (finalamount) => apply(finalamount)
 
   def ref: this.type = this
 
@@ -55,9 +55,9 @@ Seq[Any](format.raw/*2.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: 2019-10-30T12:45:39.676619
-                  SOURCE: /home/rob/Documents/play-samples-play-java-hello-world-tutorial/app/views/resultspage.scala.html
-                  HASH: 1939b3325fd8bc7d9f65045aa296769dada5b6e9
+                  DATE: 2019-12-02T07:11:18.210
+                  SOURCE: /home/siamak/Documents/calculator/app/views/resultspage.scala.html
+                  HASH: 953294e26635b6e62b296e114a0354db58bd368c
                   MATRIX: 954->1|1069->23|1097->26|1125->46|1164->48|1191->50|1238->89|1288->102|1316->104|1365->128|1396->139|1423->140|1465->152
                   LINES: 28->1|33->2|35->4|35->4|35->4|36->5|36->5|36->5|38->7|39->8|39->8|40->9|41->10
                   -- GENERATED --
